@@ -46,6 +46,16 @@ main2 {
     border-radius: 8px;
 }
 
+main3 {
+    padding: 0;
+    background: #50a8ff;
+    border-top: 1px solid #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 h1 {
     font-size: 2rem;
     margin: 0 0 0.75rem;
@@ -68,7 +78,7 @@ ul2 {
     gap: 1.25rem;
     margin-top: 1.5rem;
 }
-
+  
 ul1 {
     list-style: none;
     padding: 0;
@@ -90,5 +100,28 @@ ul1 li a1 {
 }
 
 ul1 li a1:hover {
+    background: #0066cc;
+}
+ul3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #0080ff;
+    display: flex;
+    justify-content: right;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+ul3 li a3 {
+    display:block;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+ul3 li a3:hover {
     background: #0066cc;
 }
